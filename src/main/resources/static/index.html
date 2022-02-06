@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="shortcut icon" type="image/jpeg" href="../static/images/pic2.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/responsive_panel.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/response.css">
+</head>
+<div class="header">
+    <h2 align="center">Диспетчер печати</h2>
+</div>
+<div class="topnav">
+    <a href="/api/stop-manager" class="floating-button2">stop-manager</a>
+    <a href="/api/start-manager" class="floating-button2" >start-manager</a>
+    <a href="/api/print" class="floating-button2">print</a>
+    <a href="/swagger-ui/index.html" class="floating-button2">Swagger</a>
+
+</div>
+
+
+<div class="row">
+    <div class="col-6 col-s-6 menu">
+        <ul>
+            <li><a href="/api/get-printed-list" class="floating-button">get-printed-list</a></li>
+            <li><a href="/api/get-canceled-list" class="floating-button"> get-canceled-list</a></li>
+            <li><a href="/api/get-average-duration" class="floating-button">get-average-duration</a></li>
+
+        </ul>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-s-6 menu">
+            <ul>
+                <li><a href="/api/get-document-by-type" class="floating-button">get-document-by-type</a></li>
+                <li><a href="/api/clear" class="floating-button">clear</a></li>
+                <li><a href="/api/cancel-document-by-name" class="floating-button">cancel-document-by-name</a></li>
+            </ul>
+        </div>
+
